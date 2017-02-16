@@ -46,6 +46,8 @@ a {
 
 .main-content{
   flex: 1 1 auto;
+  display: flex;
+  flex-direction:column;
 }
 
 /*.thumbnail-item+.thumbnail-item {
@@ -104,9 +106,9 @@ a {
   position: absolute;
   bottom: -16px;
   left: 4px;
-  
-  front-family:airstreamregular;
+
+  font-family: airstreamregular;
   color: white;
   text-shadow: rgba(0,0,0,0.9) 1px 2px 9px;
-  front-size: 40px;
+  font-size: 40px;
 }
